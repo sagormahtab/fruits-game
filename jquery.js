@@ -36,7 +36,7 @@ $(function(){
         }
     });
     
-$("#fruit1").mouseover(function(){
+$("#fruit1").click(function(){ //changed mouseover for mobile device
     
     //change the cursor design
     $("#fruit1").css("cursor","crosshair");
